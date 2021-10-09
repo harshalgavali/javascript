@@ -47,7 +47,7 @@ function Employee(name) {
         getfName: () => {
             console.log(`Arrow Function :this`);
             console.log(this);
-            console.log(self);
+            console.log();
 
             return self.getfName;
         }
